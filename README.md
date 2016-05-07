@@ -1,26 +1,7 @@
-# Ember-cli-import-polyfill
+# ember-cli-import-polyfill
 
-This README outlines the details of collaborating on this Ember addon.
+This addon backports https://github.com/ember-cli/ember-cli/pull/5877 for use in earlier ember-cli versions.
 
-## Installation
+# Development
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
-
-## Running
-
-* `ember serve`
-* Visit your app at http://localhost:4200.
-
-## Running Tests
-
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
-
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+This addon doesn't work when symlinked, because it needs implicit access to your ember-cli module.
