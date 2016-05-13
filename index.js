@@ -5,11 +5,14 @@ var Addon = require('ember-cli/lib/models/addon');
 
 if (!Addon.prototype.import) {
   Addon.prototype.import = function(asset, options) {
-    var app = this.app;
-    while (app.app) {
-      app = app.app;
+    if (!this.rootApp) {
+      var app = this.app;
+      while (app.app) {
+        app = app.app;
+      }
+      this.rootApp = app;
     }
-    app.import(asset, options);
+    this.rootApp.import(asset, options);
   };
 }
 
