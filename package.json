@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-import-polyfill",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "The default blueprint for ember-cli addons.",
   "directories": {
     "doc": "doc",
@@ -17,13 +17,11 @@
   },
   "author": "Edward Faulkner <ef@alum.mit.edu>",
   "license": "MIT",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "keywords": [
     "ember-addon"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "ember-addon": {
     "configPath": "tests/dummy/config"
   }
