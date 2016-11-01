@@ -13,7 +13,7 @@
   },
   "repository": "http://github.com/ember-cli/ember-cli-import-polyfill",
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 4"
   },
   "author": "Edward Faulkner <ef@alum.mit.edu>",
   "license": "MIT",
